@@ -1,4 +1,46 @@
+HTML cheat sheet
+https://www.wpkube.com/html5-cheat-sheet/
+
 Use the DOM structure
+
 All tags are either block or inline
+
 headings are block tags and have syntax and semantics
+
 <p> is block and must only contain inline tags within it
+
+accesskey is an attribute to activate an element
+
+tabindex is an attribute that specifies the order in which elements come into focus using the Tab button
+tabindex="1" has the highest priority
+
+Special entities
+< &lt;
+> &gt;
+copyright &copy;
+blank space &nbsp; Browser will ignore blank spaces given in code
+cent &cent;
+& &amp;
+
+semantics(design)
+<header> Navbars, titles, often has <nav> tag
+<nav> A section of page that links to other pages or parts within a page, Usually a list of a tags  
+<main> has the main body content between header and footer
+<footer> copyright, related documents, social media etc usually at the bottom(does not default to bottom)
+<figure> has an <img> tag and <figcaption>Additional info about the image</figcaption>
+div was used before but is coming to an end
+semantic tags help guide users properly on your page
+
+images
+width and size can be specified in pixels or %
+% changes according to browser size
+To add an image in the title use
+<link rel="icon" type="image/png" href="img/lol.png or .icon" wont support gif or jpeg
+In alt dont use picture of and graphic of, be accurate, non redundant, its OK to leave alt empty but dont skip it
+Always use alt to describe the meaning behind the image not just a plain description of it
+https://www.w3.org/WAI/tutorials/images/decision-tree/ use an alt decision tree for alt text
+
+fonts
+use fontawesome.com for icons to decorate the page
+<i></i> specifies icon
+For links use <a href="example.com" aria-label="Label here"><i fontawesome.com></a>
