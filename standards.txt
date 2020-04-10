@@ -1,0 +1,4 @@
+Use the DOM structure
+All tags are either block or inline
+headings are block tags and have syntax and semantics
+<p> is block and must only contain inline tags within it
