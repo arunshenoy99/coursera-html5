@@ -61,6 +61,15 @@ common attributes are height,width, autoplay, loop, controls
 text inside <video></video> is displayed if browser cannot display video
 <audio> can use src typically mp3 or wav
 common attributes autoplay, controls, loop, buffered, muted, volume
-
 To move to a time we can use in both audio and video src = "filename.ext#t=5,25" ie start at 5sec to 25sec 
 #t=1:38:45 start at 1min 38sec 
+multimedia must enhance content not cause a distraction
+
+tables
+decide on the rows and columns right from the beginning
+<table> container tag, use border attribute to define border(but avoid styling)
+<tr> are the rows
+<th> used for column headings
+<td> is the columns, think of it as a cell
+combine multiple columns and rows using attributes such as rowspan and columnspan
+use <caption> tag inside table for giving text related to table
