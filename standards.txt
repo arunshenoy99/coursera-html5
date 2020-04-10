@@ -25,7 +25,7 @@ cent &cent;
 semantics(design)
 <header> Navbars, titles, often has <nav> tag
 <nav> A section of page that links to other pages or parts within a page, Usually a list of a tags  
-<main> has the main body content between header and footer
+<main> has the main body content between header and footer, has all the <div> elements
 <footer> copyright, related documents, social media etc usually at the bottom(does not default to bottom)
 <figure> has an <img> tag and <figcaption>Additional info about the image</figcaption>
 div was used before but is coming to an end
@@ -44,3 +44,23 @@ fonts
 use fontawesome.com for icons to decorate the page
 <i></i> specifies icon
 For links use <a href="example.com" aria-label="Label here"><i fontawesome.com></a>
+
+links
+href stands for hyper reference
+types of links
+    absolute- fully formed url with protocol, domain host and documents, use when linking to a page outside your website
+    relative- directory or filename only, use when linking to files within the website, never use C:/ etc
+    images- links can be images too 
+    embedded - id of an element inside the same html document
+use informative text for your links not just click here 
+target attribute _self(open in same tab), _blank(open in new tab)
+
+multimedia
+<video> can use src or multiple <source> tags
+common attributes are height,width, autoplay, loop, controls    
+text inside <video></video> is displayed if browser cannot display video
+<audio> can use src typically mp3 or wav
+common attributes autoplay, controls, loop, buffered, muted, volume
+
+To move to a time we can use in both audio and video src = "filename.ext#t=5,25" ie start at 5sec to 25sec 
+#t=1:38:45 start at 1min 38sec 
