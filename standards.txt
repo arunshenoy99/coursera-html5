@@ -45,6 +45,20 @@ use fontawesome.com for icons to decorate the page
 <i></i> specifies icon
 For links use <a href="example.com" aria-label="Label here"><i fontawesome.com></a>
 
+lists
+can be ordered or unordered
+ordered lists can take attributes start, reversed, value in individual li element to define its value 
+
+Nesting lists
+To repeat, the only element we can place as a direct child of the <ul> and <ol> elements is the <li> element.
+That said, once inside the <li> element, the standard set of elements may be added, including any <ul> or <ol> elements.
+Used to define certain terms as in a glossary
+
+description list
+<dl> description list
+<dt> description term
+<dd> description details
+
 links
 href stands for hyper reference
 types of links
@@ -73,3 +87,59 @@ decide on the rows and columns right from the beginning
 <td> is the columns, think of it as a cell
 combine multiple columns and rows using attributes such as rowspan and columnspan
 use <caption> tag inside table for giving text related to table
+
+tags
+generic tags: p and div(block tags)
+semantic tags: header footer nav etc
+containers: put like minded code <article> <aside> <section> etc(block)
+hard rule: hr puts a line
+address: <address> 
+blockquote: used for quotes
+details: <details> with <summary> to create a dropdown of more details
+The above are all block tags
+span: for plain text
+cite:cite a source
+abbr: abbreviation, used with title="" which holds the expanded version
+time: used for time
+code: used for code fragments
+sub: used for chemical elements
+sup: used for exponentiation
+meter: use with min max and value attributes
+progress: same like meter used when filling forms
+iframe: uses src attribute for webpage and displays it in a new iframe can use width and height
+bdo: used to format text left to right or right to left uses dir="rtl" or "ltr"
+em: place emphasis on text
+strong: place importance on text
+
+Non semantic elements
+div and span are non semantic elements in the fact that they hold no meaning and are purely used for styling purposes
+
+Accessibility
+Making the web accessible for the widest audience possible
+Adhere to standards is the simplest way to improve accessibility
+The w3c POUR principle
+PERCIEVABLE
+OPERABLE
+UNDERSTANDABLE
+ROBUST
+
+Visual disablilities
+font size, color contrast
+
+Hearing disablilities
+Does video have closed captioning, are you blaring music?
+
+Motor disablilities
+Inability to use mouse and keyboard
+What happens when someone tries to Tab through your page? Do you require a steady hand?
+
+Cognitive disablilities
+Is the site easy to learn? And find the content easily?
+
+Validation
+Validate by URI
+Validate by filename
+Validate by input
+
+Use wave.webaim.org
+Use funkify extension
